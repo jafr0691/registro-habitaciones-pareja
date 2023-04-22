@@ -1,0 +1,42 @@
+cuerpo {
+ font-family : Arial, Helvetica, sans-serif ; 
+tamaño de letra : 13px ;
+}
+.info , .success , .warning , .error , .validation {
+ border : 1px solid ;
+margen : 10px 0px ;
+relleno : 15px 10px 15px 50px ;
+background-repeat : no-repeat ;
+posición de fondo : centro de 10 px ;
+}
+.info {
+ color : # 032AFF ;
+color de fondo : # 032AFF ;
+background : # 032AFF ;
+}
+.success {
+color : # 18d830 ;
+color de fondo : # 128c16 ;
+background : # 18d830  ;
+}
+.warning {
+ color : # CB001C ;
+color de fondo : # CB001C ;
+background-image : url ('warning.png') ;
+}
+.error {
+ color : # D8000C ;
+color de fondo : #FFBABA ;
+
+}
+.validación {
+ color : # D63301 ;
+color de fondo : #FFCCBA ;
+background-image : url ('validation.png') ;
+}
+
+.button:hover {
+background: rgba(0,0,0,0);
+color: #3a7999;
+box-shadow: inset 0 0 0 3px #3a7999;
+}
